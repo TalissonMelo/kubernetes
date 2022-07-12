@@ -7,4 +7,4 @@ metadata:
 spec:
   containers:
   - name: api-conversao
-    image: talissonmelo/api-conversao:latest
+    image: "talissonmelo/api-conversao:latest"

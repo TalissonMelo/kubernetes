@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: api-conversao
+  labels:
+    app: api-conversao
+spec:
+  selector:
+    matchLabels:
+      app: api-conversao    
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "api-conversao"
+    spec:
+      containers:
+        - name: api-conversao
+          image: "talissonmelo/api-conversao:latest"
