@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "api-conversao"
+  labels:
+    name: "api-conversao"
+spec:
+  containers:
+  - name: api-conversao
+    image: talissonmelo/api-conversao:latest
