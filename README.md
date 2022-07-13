@@ -12,6 +12,7 @@
 
 ##### Mapeamento de porta - kubectl port-forward pod/"NOME_ARQUIVO" 80:80
 ##### Deletando um pod    - kubectl delete pod "NOME_ARQUIVO"
+##### Vericação de pod    - kubectl get pods --watch
 ##### Listagem de pods    - kubectl get pods
 ##### Descrever o pod     - kubectl describe pod "NOME_ARQUIVO"
 
