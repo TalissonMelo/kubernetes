@@ -1,5 +1,7 @@
 # Kubernates
 
+##### kubectl apply -f "NOME_ARQUIVO".yaml
+
 ### POD
 
 ##### Mapeamento de porta - kubectl port-forward pod/api-conversao 80:80
@@ -9,4 +11,9 @@
 
 ### ReplicaSet
 
-##### Deletando um ReplicaSet    - kubectl delete replicaset api-conversao
+##### Deletando um ReplicaSet    - kubectl delete replicasets api-conversao
+
+### Deployment
+
+##### Listagem de Deployments    - kubectl get deployment
+##### Deletando um Deployment    - kubectl delete deployment api-conversao
