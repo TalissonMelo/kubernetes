@@ -24,3 +24,8 @@
 
 ##### Listagem de Deployments    - kubectl get deployment
 ##### Deletando um Deployment    - kubectl delete deployment "NOME_ARQUIVO"
+
+#####  kubectl get - listar recursos
+#####  kubectl describe - mostrar informações detalhadas sobre um recurso
+#####  kubectl logs - mostrar os logs de um container em um Pod
+#####  kubectl exec - executar um comando em um contêiner em um Pod
